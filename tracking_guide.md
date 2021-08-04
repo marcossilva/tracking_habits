@@ -52,3 +52,23 @@ for example:
 > \[coding] implementing siamese architecture
 >
 > \[kinesthesic] ran 40min
+
+## What if a given activity has two main activities?
+
+One can commit on both braches using cherry-pick as below:
+
+> #Branch to receive the commit: v1-release
+> 
+> git checkout v1-release
+>
+> git cherry-pick F
+>
+> #Branchto push the commit to: master
+> 
+> git push origin master v1-release
+>
+
+
+Source : 
+* [Add Your Changes To Multiple Branches](https://docs.plone.org/about/contributing/cherrypicking.html)
+* [Push a commit in two branches with Git](https://stackoverflow.com/questions/4024095/push-a-commit-in-two-branches-with-git)
