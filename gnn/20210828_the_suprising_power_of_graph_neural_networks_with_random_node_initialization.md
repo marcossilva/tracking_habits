@@ -1,0 +1,7 @@
+# The Surprising Power of Graph Neural Networks with Random Node Initialization
+
+https://www.ijcai.org/proceedings/2021/0291.pdf
+
+> Graph neural networks (GNNs) are effective models for representation learning on relational data. However, standard GNNs are limited in their expressive power, as they cannot distinguish graphs beyond the capability of the Weisfeiler-Leman graph isomorphism heuristic. In order to break this expressiveness barrier, GNNs have been enhanced with random node initialization (RNI), where the idea is to train and run the models with randomized initial node features. In this work, we analyze the expressive power of GNNs with RNI, and prove that these models are universal, a first such result for GNNs not relying on computationally demanding higher-order properties. This universality result holds even with partially randomized initial node features, and preserves the invariance properties of GNNs in expectation. We then empirically analyze the effect of RNI on GNNs, based on carefully constructed datasets. Our empirical findings support the superior performance of GNNs with RNI over standard GNNs.
+
+In this paper they prove that Random Initialization is benefitial for isomorphism tasks in situations where the nodes don't have features.
